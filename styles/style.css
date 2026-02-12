@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.inter{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background: #160032;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.tech {
+    color: white;
+    font-size: 2.813rem;
+}
+
+.wave {
+    font-size: 2.813rem;
+    background: linear-gradient(
+        70deg,
+        #F7E93F,
+        #FB09B4,
+        #9100F8
+    );
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #d1c4e9;
+    font-size: 1rem;
+
+}
+
+
+.subscribe-btn {
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 25px;
+    background: linear-gradient(
+        70deg,
+        #F7E93F 0%,
+        #FB09B4 50%,
+        #9100F8 100%
+    );
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* hero banner */
+
+.hero-bg{
+    width: 100%;
+}
+
+.hero-circle{
+    position: absolute;
+    top: 22%;
+    left: 41%;
+}
+
+.mic{
+    position: absolute;
+    top: 32%;
+    left: 47%;
+}
+
+.new{
+    background-color: #00FF88;
+    color: #1A0B2E;
+    width: 75px;
+    height: 38px;
+    border-radius: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.125rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    box-shadow: 10px 10px 30px #1A0B2E;
+     position: absolute;
+    top: 25%;
+    left: 54%;
+}
+
+.ban-head{
+    font-size: 3.75rem;
+    font-weight: bolder;
+    color: #FFFFFF;
+    position: absolute;
+    top: 66%;
+    left: 43%;
+}
+
+.ban-text{
+    font-size: 1rem;
+    color: #FFFFFF;
+    position: absolute;
+    top: 75%;
+    left: 37%;
+}
+
+.spotify{
+    padding: 10px 22px;
+    border-radius: 25px;
+    background: linear-gradient(
+        70deg,
+        #F7E93F 0%,
+        #FB09B4 50%,
+        #9100F8 100%
+    );
+    color: white;
+    font-weight: 700;
+    border: none;
+    width: 201px;
+    height: 45px;
+    font-size: 0.938rem;
+    position: absolute;
+    top: 80%;
+    left: 41%;
+    cursor: pointer;
+
+}
+.subs{
+    height: 43px;
+    width: 160px;
+    border: none;
+    color: #00FF88;
+    border: 2px solid #00FF88;
+    border-radius: 25px;
+    background-color: transparent;
+    font-size: 1.125rem;
+    padding: 10px 20px;
+    position: absolute;
+    top: 80%;
+    left: 52%;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+/* About section */
+
+.about{
+    background-color: #1A0B2E;
+    margin-top: -3.8px;
+    text-align: center;
+}
+
+.about-heading{
+    padding-top: 50px;
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+
+.about, p{
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+.p1, .p2, .p3, .p4{
+    margin-top: 20px;
+}
+
+hr{
+    /* margin-top: 80px; */
+    width: 70%;
+    display: flex;
+    margin: 80px auto;
+}
+
+.ratings{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 30px 50px 30px;
+}
+
+.ratings h1{
+    font-size: 3rem;
+    color: #00FF88;
+}
+
+.grid{
+    background-color: #230E3D;
+}
+
+.h1{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 3rem;
+}
+
+.grid-cols{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 50px 200px 0 200px;
+    padding-bottom: 50px;
+}
+
+.grid-cols> div{
+    background-color: #351165;
+    border-radius: 40px;
+}
+
+.audio{
+    grid-row: span 2;
+    padding: 30px;
+}
+
+.audio> img, h3, p{
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+.audio> img{
+    margin-top: 70px;
+}
+
+.audio> h3{
+    font-size: 1.5rem;
+}
+
+.mobile, .global{
+    grid-column: span 2;
+    padding: 30px;
+}
+
+.mobile, .global> img, h3, p{
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.mobile, .global> h3{
+    font-size: 1.5rem;
+}
+
+.interview{
+    grid-column: span 2;
+    padding: 30px;
+}
+
+.interview> h1{
+    color: #FFFFFF;
+    background: linear-gradient(
+        70deg,
+        #F7E93F 0%,
+        #FB09B4 50%,
+        #9100F8 100%
+    );
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.interview> h3{
+    font-size: 1.5rem;
+}
+.interview> h1, h3, p{
+    margin-bottom: 10px;
+}
+
+.rich{
+    grid-column: span 1;
+    padding: 30px;
+}
+
+.rich> h3{
+    font-size: 1.5rem;
+}
+
+.rich> img, h3, p{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
