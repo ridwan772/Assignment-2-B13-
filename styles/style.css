@@ -41,7 +41,7 @@ body{
         #FB09B4,
         #9100F8
     );
-     -webkit-background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
 }
